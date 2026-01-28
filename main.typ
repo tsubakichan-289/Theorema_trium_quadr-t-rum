@@ -4,10 +4,6 @@
 #let serif = ("Times New Roman", "Noto Serif CJK JP")
 
 #set text(11pt, font: serif, lang: "la")
-#align(center)[
-  #set text(weight: "black", size: 2em, font: serif)
-  Theorema trium quadrātōrum
-]
 
 #let (
   definition,
@@ -17,6 +13,19 @@
 ) = default-theorems("thm-group", lang: "la")
 
 #show: thm-rules 
+
+#align(center)[
+	Universitas \*\*\*\*\*\
+	Schola Graduatorum Scientiae Creativae\
+	Cursus Scientiarum Mathematicarum in Disciplinā Fundamentālī
+
+  #set text(weight: "black", size: 2em, font: serif)
+  Theorema trium quadrātōrum
+]
+#align(center)[
+	Numerus studiosi: 0123456789 \ Nomen candidati: Camellia \ Moderator dissertationis: Prof. \*\*\*\*\* \
+	Datum \*\*\*\*\*, die XXX mēnsis Iūliī, annō Dominī MMXXV
+]
 
 #theorem[
 	Sint longitūdinēs laterum triangulī $a,b,c$.
